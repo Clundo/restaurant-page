@@ -160,6 +160,7 @@ font-size: 72px;
 .item-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 4em;
 }
 
@@ -173,7 +174,12 @@ font-size: 72px;
     box-shadow: 5px 5px 0 deeppink;
 }
 
+.item-title {
+    text-transform: capitalize;
+}
+
 .item-text-wrapper {
+    width: min(100%, 600px);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
